@@ -1,3 +1,8 @@
+// A $( document ).ready() block.
+$( document ).ready(function() {
+});
+
+
 jQuery(function($) {
 
 	//jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -74,7 +79,6 @@ jQuery(function($) {
             map: map
         });
     }
-    google.maps.event.addDomListener(window, 'load', initialize_google_map);
 	
 	
 });
