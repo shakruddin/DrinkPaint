@@ -47,6 +47,7 @@ p {
 .site-logo {	
 	margin-top:-26px;
     float: left;
+    height: 0 !important;
 }
 
 .site-logo a.brand {
