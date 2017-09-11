@@ -132,13 +132,18 @@ p {
     transition: all 0.5s ease-in-out;
 }
 
-.navbar-fixed-top .nav li a:hover,
+.navbar-fixed-top .nav li a:hover{
+    outline: 0;
+	color:#bb1f34 !important ;
+    background: #fff;
+    border-radius: 0px 25px 25px 25px;
+}
 .navbar-fixed-top .nav li a:focus,
 .navbar-fixed-top.nav li.active {
     outline: 0;
 	color:#bb1f34 !important ;
     background: #fff;
-    border-radius: 0px 25px 25px 25px;
+    border-radius: 10px;
 }
 
 .navbar-toggle {
