@@ -98,6 +98,7 @@ var text_four = "Join us at public events to make new friends and discover a cre
 
 
 $('.img_f').html(one_img_1);
+$('#one').css("background", "#fff");
 $('#one').click(function(){
     $('.img_f').html(one_img_1);
     $('#one').css("background", "#fff");
