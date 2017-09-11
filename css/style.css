@@ -152,6 +152,9 @@ p {
 .navbar-toggle:active {
     outline: 0;
 }
+.hide_1{
+    margin-left: 10px;
+}
 .services_1{
     padding:10px;
     margin: 10px;
