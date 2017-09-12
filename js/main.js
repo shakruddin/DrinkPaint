@@ -98,10 +98,10 @@ var text_four = "Join us at public events to make new friends and discover a cre
 
 
 $('.img_f').html(one_img_1);
-$('#one').css("background", "#fff");
+$('#one').css("background", "#f5f6f7");
 $('#one').click(function(){
     $('.img_f').html(one_img_1);
-    $('#one').css("background", "#fff");
+    $('#one').css("background", "#f5f6f7");
     $('.detail').html(text_one);
     $('#two').css("background", "");
     $('#three').css("background", "");
@@ -111,7 +111,7 @@ $('#one').click(function(){
 $('#two').click(function(){
     $('.img_f').html(one_img_2);
     $('.detail').html(text_two);
-    $('#two').css("background", "#fff");
+    $('#two').css("background", "#f5f6f7");
     $('#one').css("background", "");
     $('#three').css("background", "");
     $('#four').css("background", "");
@@ -120,7 +120,7 @@ $('#two').click(function(){
 $('#three').click(function(){
     $('.img_f').html(one_img_3);
     $('.detail').html(text_three);
-    $('#three').css("background", "#fff");
+    $('#three').css("background", "#f5f6f7");
     $('#two').css("background", "");
     $('#one').css("background", "");
     $('#four').css("background", "");
@@ -128,7 +128,7 @@ $('#three').click(function(){
 $('#four').click(function(){
     $('.img_f').html(one_img_4);
     $('.detail').html(text_four);
-    $('#four').css("background", "#fff");
+    $('#four').css("background", "#f5f6f7");
     $('#two').css("background", "");
     $('#three').css("background", "");
     $('#one').css("background", "");
