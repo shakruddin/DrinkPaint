@@ -28,7 +28,6 @@
 	background: #333;
 	text-align: center;
 	cursor: pointer;
-    border-radius: 10px;
 }
 
 .grid figure img {
@@ -906,7 +905,13 @@ figure.effect-dexter:hover p {
 /*---------------*/
 
 figure.effect-sarah {
-    height: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+@media screen and (min-width: 480px){
+   figure.effect-sarah {
+    height: 70vh !important;
+    } 
 }
 
 figure.effect-sarah img {
@@ -922,7 +927,6 @@ figure.effect-sarah img {
 }
 
 figure.effect-sarah:hover img {
-	opacity: 0.4;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
@@ -1029,8 +1033,6 @@ figure.effect-zoe p.icon-links a span::before {
 	padding: 8px 10px;
 	font-family: 'feathericons';
 	speak: none;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon-eye::before {
