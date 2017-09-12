@@ -14,7 +14,7 @@ body {
     font-family: 'Ek Mukta', sans-serif;
 	font-weight: 300;
     color: #666;
-    background-color: #eee;
+    background-color: #f5f6f7;
 	font-size: 16px;
     line-height: 1.6em;
 	font-weight: 400;
@@ -185,26 +185,21 @@ p {
     transition: all 0.5s;
     text-align:left;
 }
-hr {
-    margin-top: 0;
-    margin-bottom: 45px;
-    border: 0;
-    border-top: 2px solid #eee;
-    border-color: #c9c9c9;
-    width: 100px;
-}
 
 .slider img {
     width: 100%; 
 }
 .carousel-inner{
-    height: 40vh;
+    height: 28vh;
 }
 
 @media screen and (min-width: 480px){
    .sonu {
     height: 100vh !important;
     } 
+}
+.item .active{
+    height: 100px !important;
 }
 
 Section {
@@ -261,6 +256,7 @@ Section {
 .center h2{
   font-size: 40px;
   margin-top: 100px;
+  margin-bottom: 60px;
   text-align:center;
   color:#A14;
   text-transform:uppercase;

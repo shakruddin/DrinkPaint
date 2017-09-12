@@ -22,9 +22,9 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 5px;
 	min-width: 90%;
-    height: 200px;
+    height: 200px; 
 	background: #333;
 	text-align: center;
 	cursor: pointer;
@@ -906,7 +906,6 @@ figure.effect-dexter:hover p {
 /*---------------*/
 
 figure.effect-sarah {
-	background: #bb1f34;
     height: 350px;
 }
 
