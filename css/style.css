@@ -136,14 +136,13 @@ p {
     outline: 0;
 	color:#bb1f34 !important ;
     background: #fff;
-    border-radius: 0px 25px 25px 25px;
 }
 .navbar-fixed-top .nav li a:focus,
 .navbar-fixed-top.nav li.active {
     outline: 0;
 	color:#bb1f34 !important ;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 0px 25px 25px 25px;
 }
 
 .navbar-toggle {

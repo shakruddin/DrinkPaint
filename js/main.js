@@ -84,9 +84,9 @@ jQuery(function($) {
 });
 
 var one_img_1 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-12.jpg' alt='img13'/></figure></div>";
-var one_img_2 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-4.jpg' alt='img13'/><figcaption><h2>Corporate Events / <span>Team Building</span></h2><p>Strengthen the bond of your employees with an exclusive fun and relaxing event customized to suit the moto of your organization!</p><a href='#'>View more</a></figcaption></figure></div>";
-var one_img_3 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-3.jpg' alt='img13'/><figcaption><h2>Private / <span>Parties</span></h2><p>Enjoy one of a kind of a party at your choice of place with your people and your customized flavor of painting!</p><a href='#'>View more</a></figcaption></figure></div>";
-var one_img_4 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-6.jpg' alt='img13'/><figcaption><h2>Public / <span>Events</span></h2><p>Join us at public events to make new friends and discover a creative style of drinking with us!</p><a href='#'>View more</a></figcaption></figure></div>";
+var one_img_2 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-4.jpg' alt='img13'/></figure></div>";
+var one_img_3 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-3.jpg' alt='img13'/></figure></div>";
+var one_img_4 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-6.jpg' alt='img13'/></figure></div>";
 
 var text_one = "We are with you to support the society and make a difference! Raise funds to support a social cause through our event.";
 
