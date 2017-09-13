@@ -176,7 +176,7 @@ p {
 }
 
 .About-1{
-    background: #f5f6f7 !important;
+    background: #ECEFF1 !important;
     padding: 20px;
     color: #888;
     margin-bottom: 20px;
@@ -558,7 +558,7 @@ a.accordion-toggle  i{
 
 .contact-page{
   padding-top: 80px;
-  background:#e2e2e2;
+  background: #ECEFF1;
   margin-top:-10px;
 }
 
