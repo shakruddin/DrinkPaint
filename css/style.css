@@ -183,6 +183,8 @@ p {
     border-radius: 5px;
     transition: all 0.5s;
     text-align:left;
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .slider img {
