@@ -132,9 +132,18 @@ $('#four').click(function(){
 
 });
 
+        $('.hider').hide();
+        $('#more_Gallery').click(function(){
+            $('.hider').show();
+        });
 
-$('#hider').hide();
-$('#more_Gallery').click(function(){
-    $('#hider').show('slow');
-    $('#more_Gallery').hide();
-});
+
+//
+//$('.hide_1').click(function(){
+//    $('.navbar-nav').hide();
+//});
+//
+//
+//$('.navbar-toggle').click(function(){
+//    $('.navbar-nav').show();
+//});
