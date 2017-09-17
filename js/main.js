@@ -29,12 +29,8 @@ jQuery(function($) {
 	// portfolio filter
 	$(window).load(function(){'use strict';
 		var $portfolio_selectors = $('.portfolio-filter >li>a');
-		var $portfolio = $('.portfolio-items');
-		$portfolio.isotope({
-			itemSelector : '.portfolio-item',
-			layoutMode : 'fitRows'
-		});
-		
+		var $portfolio = $('.port');
+    
 		$portfolio_selectors.on('click', function(){
 			$portfolio_selectors.removeClass('active');
 			$(this).addClass('active');
@@ -81,10 +77,6 @@ jQuery(function($) {
     }
 	
 	
-});
-    
-$("#more_Gallery").click(function(){
-    $('.hide').removeClass();
 });
 
 var one_img_1 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-12.jpg' alt='img13'/></figure></div>";
@@ -140,12 +132,9 @@ $('#four').click(function(){
 
 });
 
-//
-//$('.hide_1').click(function(){
-//    $('.navbar-nav').hide();
-//});
-//
-//
-//$('.navbar-toggle').click(function(){
-//    $('.navbar-nav').show();
-//});
+
+$('#hider').hide();
+$('#more_Gallery').click(function(){
+    $('#hider').show('slow');
+    $('#more_Gallery').hide();
+});

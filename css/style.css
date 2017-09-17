@@ -341,8 +341,9 @@ hr {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.portfolio-items{
+.port{
     min-height: 416px !important;
+    overflow: none !important;
 }
 
 .portfolio-item {
