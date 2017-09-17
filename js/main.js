@@ -1,6 +1,6 @@
 // A $( document ).ready() block.
 $( document ).ready(function() {
-});
+
 
 
 jQuery(function($) {
@@ -82,6 +82,10 @@ jQuery(function($) {
 	
 	
 });
+    
+$("#more_Gallery").click(function(){
+    $('.hide').removeClass();
+});
 
 var one_img_1 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-12.jpg' alt='img13'/></figure></div>";
 var one_img_2 = "<div class='grid'><figure class='effect-sarah'><img src='DNP/img-4.jpg' alt='img13'/></figure></div>";
@@ -134,6 +138,7 @@ $('#four').click(function(){
     $('#one').css("background", "");
 });
 
+});
 
 //
 //$('.hide_1').click(function(){

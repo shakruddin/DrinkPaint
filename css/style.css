@@ -68,7 +68,7 @@ p {
     margin-bottom: 0;
     height: 68px !important;
     background-color: #bb1f34 !important;
-    border-color: #bb1f34 !important;
+    box-shadow: 0px 0.5px 1px #fff; 
 }
 
 .navbar-brand {
@@ -101,6 +101,11 @@ p {
     transition: all .2s ease-in-out;
 	color: #fff;
 }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background: #bb1f34 !important;
+}
+
 
 .navbar-fixed-top ul.nav ul.dropdown-menu {
 	  border-radius: 0;	
@@ -176,13 +181,12 @@ p {
 }
 
 .About-1{
-    background: #f5f4f4 !important;
     padding: 20px;
     color: #888;
     margin-bottom: 20px;
     border-radius: 5px;
     transition: all 0.5s;
-    text-align:left;
+    text-align: center;
     font-size: 17px;
     line-height: 40px;
 }
@@ -196,7 +200,7 @@ p {
 
 @media screen and (min-width: 480px){
    .sonu {
-    height: 100vh !important;
+    height: 58vh !important;
     } 
 }
 .item .active{
@@ -256,11 +260,31 @@ Section {
 
 .center h2{
   font-size: 40px;
-  margin-top: 100px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align:center;
-  color:#A14;
+  color:#555;
   text-transform:uppercase;
+}
+hr {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #eee;
+    width: 58px;
+    border-color: #bb1f34;
+}
+.mobile{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (min-width: 480px){
+   .mobile{
+    height: 578px;
+} 
+    
 }
 
 #portfolio .lead {
@@ -317,6 +341,9 @@ Section {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.portfolio-items{
+    min-height: 416px !important;
+}
 
 .portfolio-item {
   margin: 0;
@@ -346,6 +373,7 @@ Section {
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
+/*
 
 .isotope {
   -webkit-transition-property: height, width;
@@ -354,6 +382,7 @@ Section {
   -o-transition-property: height, width;
   transition-property: height, width;
 }
+*/
 
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
@@ -633,19 +662,20 @@ textarea#message{
   color: #fff;
 }
 
-#footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align:center;
+.facebook_tag{
+    background: #ccc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+    font-size: 30px;
+    transition: 0.3s;
 }
-
-#footer ul > li {
-	margin-top:20px;
-	margin-bottom:30px;
-  display: inline-block;
-  margin-left: 15px;
-  text-align:center;
+.facebook_tag:hover{
+    background: #3b5998;
 }
 .midnight-blue {
 	text-align:center;
@@ -657,3 +687,5 @@ textarea#message{
 	font-size:30px;
 
 }
+
+
